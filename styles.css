@@ -20,11 +20,12 @@ body {
 
 /* each book block */
 .book {
- background-color: rgb(46, 204, 113);
-  margin: 20px 0;
-  padding: 10px;
+  background-color: #2ecc71; /* green */
+  margin-bottom: 20px;
+  padding-top: 10px;
   box-shadow: 0 2px 1px gray;
 }
+
 
 .imgs {
   height: 200px;
