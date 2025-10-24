@@ -20,7 +20,9 @@ body {
 
 /* each book block */
 .book {
-  background-color: yellow; /* expected rgb(255,255,0) */
+  
+  background-color: transparent;
+ /* expected rgb(255,255,0) */
   margin: 20px 0;
   padding: 10px;
   box-shadow: 0 2px 1px gray;
