@@ -1,57 +1,62 @@
 /*  your css code here. If applicable */
-body{
-	background-color: #f8f8f8;
-	box-sizing:border-box;
+body {
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
-.main h1{
-	text-align:center;
-}
-.main{
-	background-color:#ffffff;
-	width:80%;
-	box-shadow: 5px 5px 10px gray;
-	height:100%;
-	margin-left:12%;
 
-	}
-.book{
-	background-color:#f8f8f8;
-	height:200px;
-	width:100%;
-	margin-bottom:20px;
-	padding-top:10px;
-	box-shadow: 0 2px  1px gray;
-	
-	
-	
+/* main container */
+.book-library {
+  background-color: #ffffff;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 5px 5px 10px gray;
+  padding: 20px;
 }
-.imgs{
-	background-color:yellow;
-	height:70%;
-	width:40%;
-	margin-left:25%;	
+
+.book-library h1 {
+  text-align: center;
 }
-.imgs img{
-	height:100%;
-	width:100%;
-	background-size:contain;
-	background-image:no-repeat;
+
+/* each book block */
+.book {
+  background-color: yellow; /* expected rgb(255,255,0) */
+  margin: 20px 0;
+  padding: 10px;
+  box-shadow: 0 2px 1px gray;
 }
-.author{
-	color:#777777;
-	margin-left:5px;
-	margin-top:3px;
-	font-size:9px;
+
+.imgs {
+  height: 200px;
+  width: 150px;
+  margin: 0 auto;
 }
-.book-name{
-	margin-left:5px;
-	font-weight:700;
-	font-size:9px;
+
+.imgs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.btn{
-	width:92%;
-	background-color:#2ecc71;
-	text-align:center;
-	margin-left:6px;
-	margin-top:3px;
+
+/* title as h2 */
+h2 {
+  font-size: 16px;
+  margin: 10px 5px 0;
+}
+
+/* author text */
+.author {
+  color: #777777;
+  margin: 5px;
+  font-size: 14px;
+}
+
+/* price block */
+.price {
+  background-color: #2ecc71;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
 }
