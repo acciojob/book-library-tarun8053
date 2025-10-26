@@ -26,14 +26,12 @@ body {
 
 /* each book block */
 .book {
-  background-color: #ffffff; /* changed to white */
+  background-color: #ffffff; /* white, not green */
   margin-bottom: 20px;
   padding-top: 10px;
-  box-shadow: 0 2px 5px gray;
-  width: 180px;           /* fixed width */
-  text-align: center;
-  border-radius: 5px;
+  box-shadow: 0 2px 1px gray;
 }
+
 
 .imgs {
   height: 200px;
@@ -60,12 +58,13 @@ h2 {
 }
 
 .price {
-  background-color: #2ecc71;
+  background-color: #2ecc71; /* green */
   color: white;
   text-align: center;
   padding: 5px;
-  margin: 10px auto;
+  margin: 5px auto;
   font-weight: bold;
   border-radius: 3px;
   width: fit-content;
 }
+
